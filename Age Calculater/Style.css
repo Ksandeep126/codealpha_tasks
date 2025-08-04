@@ -1,4 +1,4 @@
-/* 🌈 Basic Page Styling */
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #e7eaeb, #020d16);
@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-/* 📦 Container Styling */
+
 .container {
     background: #6b686a;
     padding: 50px;
@@ -20,13 +20,13 @@ body {
     width: 500px;
 }
 
-/* 📝 Heading */
+
 .container h1 {
     margin-bottom: 10px;
     color: #0c0c0c;
 }
 
-/* 📆 Date Input */
+
 input[type="date"] {
     padding: 10px;
     font-size: 16px;
@@ -36,7 +36,7 @@ input[type="date"] {
     margin-bottom: 15px;
 }
 
-/* 🔘 Button Styling */
+
 button {
     background: #0f100f3b;
     color: white;
@@ -52,15 +52,16 @@ button:hover {
     background: #030708;
 }
 
-/* 📊 Result Box */
+
 #result {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
     color: #444;
 }
-/* 🔴 Style for Error Messages */
+
 .error {
     color: red;
     font-weight: bold;
 }
+
