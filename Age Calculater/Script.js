@@ -37,7 +37,8 @@ function calculateAge() {
         ageMonths--;
     }
 
-    // ✅ Show result
+    
     result.innerHTML = `🎉 You are <b>${ageYears}</b> years, <b>${ageMonths}</b> months, and <b>${ageDays}</b> days old.`;
 }
+
 
