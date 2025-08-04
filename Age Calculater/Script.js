@@ -2,26 +2,26 @@ function calculateAge() {
     let dobInput = document.getElementById("dob").value;
     let result = document.getElementById("result");
 
-    // Clear any old styles
+    
     result.classList.remove("error");
 
     if (dobInput === "") {
-        result.innerHTML = "⚠️ Please select your date of birth!";
-        result.classList.add("error"); // ✅ Add red style
+        result.innerHTML = " Please select your date of birth!";
+        result.classList.add("error");
         return;
     }
 
     let dob = new Date(dobInput);
     let today = new Date();
 
-    // ✅ Check for future date
+    
     if (dob > today) {
-        result.innerHTML = "❌ Date of birth cannot be in the future!";
-        result.classList.add("error"); // ✅ Add red style
+        result.innerHTML = " Date of birth cannot be in the future!";
+        result.classList.add("error");
         return;
     }
 
-    // ✅ Calculate age
+    
     let ageYears = today.getFullYear() - dob.getFullYear();
     let ageMonths = today.getMonth() - dob.getMonth();
     let ageDays = today.getDate() - dob.getDate();
@@ -40,3 +40,4 @@ function calculateAge() {
     // ✅ Show result
     result.innerHTML = `🎉 You are <b>${ageYears}</b> years, <b>${ageMonths}</b> months, and <b>${ageDays}</b> days old.`;
 }
+
