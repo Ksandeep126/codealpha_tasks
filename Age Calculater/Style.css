@@ -1,0 +1,66 @@
+/* 🌈 Basic Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e7eaeb, #020d16);
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 📦 Container Styling */
+.container {
+    background: #6b686a;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 05px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+}
+
+/* 📝 Heading */
+.container h1 {
+    margin-bottom: 10px;
+    color: #0c0c0c;
+}
+
+/* 📆 Date Input */
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* 🔘 Button Styling */
+button {
+    background: #0f100f3b;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #030708;
+}
+
+/* 📊 Result Box */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+/* 🔴 Style for Error Messages */
+.error {
+    color: red;
+    font-weight: bold;
+}
